@@ -133,6 +133,7 @@ public class MainActivity extends ActionBarActivity {
 
         TextView tvExpr = (TextView)findViewById(R.id.tvExpr);
         tvExpr.setText(Integer.toString(answer));
+        expr = new StringBuffer(Integer.toString(answer));
         TextView tvAns = (TextView)findViewById(R.id.tvAns);
         tvAns.setText(Integer.toString(0));
     }
